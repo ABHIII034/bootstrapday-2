@@ -1,0 +1,54 @@
+/* *{
+    background-color: antiquewhite;
+} */
+/* .position{
+    position: relative;
+    background-color: red;
+} */
+.fixed{
+    position: fixed;
+    background-color: rgb(174, 200, 200);
+    padding: 10px;
+    left: 0;
+    right: 0;
+    /* display: inline;
+    width: 50%; */
+}
+.relative{
+    background-color: rgb(174, 219, 219);
+    position: relative;
+    padding: 10px;
+    bottom: 0px;
+    left: 650px;
+
+}
+/*
+.fixed{
+    background-color: rgb(174, 219, 219);
+    position: relative;
+    padding: 10px;
+    bottom: 0px;
+    left: 300px;
+
+} */
+
+.absolute{
+    position: absolute;
+    background-color: rgba(245, 204, 155,0.8);
+    bottom: 100px;
+}
+.position{
+    background-color: rgba(189, 238, 222, 0.356);
+    height: 500px;
+    width: 40%;
+    position: relative;
+    margin-top: 20px;
+
+}
+.contain{
+    background-color: rgb(207, 182, 182);
+    height: 80px;
+    width: 80px;
+    position: absolute;
+
+}

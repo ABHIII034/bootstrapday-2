@@ -1,0 +1,14 @@
+.container{
+    background-color: rgba(107, 180, 180,0.7);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* display: grid; */
+    /* grid-template-columns: ifr ifr ifr ifr; */
+    div{
+        background-color: whitesmoke;
+        border: 12px solid black;
+        font-size: 30px;
+        text-align: center;
+        padding: 10px;
+    }
+}
